@@ -1,0 +1,9 @@
+Feature: Google Homepage
+This feature verifies the functionality on Google Homepage
+Scenario: Check that main elements on Google Homepage are displayed
+
+Given I launch Chrome browser
+When I open google Homepage
+Then I verify that the page displays search text box
+Then i verify that the text is entered and searched
+And click the submit button
